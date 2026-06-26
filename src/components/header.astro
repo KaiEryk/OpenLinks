@@ -2,41 +2,36 @@
 const { profile, avatarClass } = Astro.props;
 ---
 
-<div class="text-center mb-10">
-	<div class="inline-block">
-		<img
-			src={profile.avatar || "avatar/Avatar.webp"}
-			alt={`${profile.name} avatar`}
-			width="120"
-			height="120"
-			class={avatarClass}
-		/>
+<div class="text-center mb-10 animate-fade-in">
 
-<h1
-	class="mt-6 mb-2 text-4xl md:text-5xl font-black font-sans leading-tight tracking-wide text-center"
-	style="
-		background: linear-gradient(180deg, #4CAF50 0%, #2E7D32 100%);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		text-shadow:
-			0 1px 0 rgba(255,255,255,.8),
-			0 3px 8px rgba(0,0,0,.12);
-	"
->
-{profile.name.split("\n").map((line) => (
-	<>
-		{line}
-		<br />
-	</>
-))}
-</h1>
+	<img
+		src={profile.avatar || "avatar/Avatar.webp"}
+		alt={`${profile.name} avatar`}
+		width="110"
+		height="110"
+		class={`${avatarClass} shadow-xl`}
+	/>
 
-		<p class="mx-auto max-w-sm text-lg font-normal font-sans text-gray-700">
-			{profile.description}
-		</p>
+	<h1
+		class="mt-6 text-5xl font-black tracking-wide leading-tight"
+		style="
+			background:linear-gradient(180deg,#3E8E41 0%,#1B5E20 100%);
+			-webkit-background-clip:text;
+			-webkit-text-fill-color:transparent;
+			text-shadow:
+			0 2px 0 rgba(255,255,255,.9),
+			0 5px 12px rgba(0,0,0,.15);
+		"
+	>
+		{profile.name}
+	</h1>
 
-		<p class="mt-4 text-xl font-bold font-sans text-blue-700">
-			☎️ 0854 815 813
-		</p>
-	</div>
+	<p class="mt-3 text-xl font-medium text-gray-800">
+		{profile.description}
+	</p>
+
+	<p class="mt-5 text-2xl font-extrabold text-red-700">
+		☎️ 0854 815 813
+	</p>
+
 </div>

@@ -30,7 +30,7 @@ export const themes = {
     links_text: 'text-white font-medium group-hover:text-zinc-300 transition-colors',
   },
   arctic: {
-    background: 'bg-gradient-to-br from-slate-100 via-blue-100 to-cyan-200',
+    background: "bg-cover bg-center bg-fixed",
     avatar: 'w-24 h-24 mx-auto rounded-full border-4 border-slate-300/50 bg-gradient-to-br from-blue-300 to-cyan-400 flex items-center justify-center',
     links_button: 'bg-white/60 border border-slate-200/50 rounded-lg p-4 cursor-pointer hover:bg-blue-50/80 transition-all duration-200 glass group',
     links_text: 'text-slate-700 font-medium group-hover:text-blue-600 transition-colors',

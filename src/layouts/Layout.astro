@@ -35,7 +35,10 @@ const { themeClass, meta } = Astro.props;
 		<link rel="canonical" href={meta.url_base} />
 	</head>
 
-	<body class={`min-h-screen ${themeClass.background}`}>
+	<body
+	class={`min-h-screen ${themeClass.background}`}
+	style="background-image:url('/background.webp');"
+>
 		<div class="container max-w-md mx-auto px-4 py-8">
 			<header>
 				<slot name="header" />

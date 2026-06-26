@@ -115,3 +115,10 @@
 .pixel-corners::after {
   margin: -4px;
 }
+/* =========================
+   GLOBAL FONT
+========================= */
+
+body {
+  font-family: "Inter", sans-serif;
+}

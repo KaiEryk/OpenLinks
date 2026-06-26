@@ -12,26 +12,21 @@
 		"adult": false
 	},
 
-	"links": [
-		{
-			"name": "🛒 Shopee",
-			"url": "https://vn.shp.ee/kK63H1Uz",
-			"icon": "/icons/Shopee.svg"
-		},
-		{
-			"name": "📘 Facebook",
-			"url": "https://www.facebook.com/gao.giangsen",
-			"icon": "/icons/Facebook.svg"
-		},
-		{
-			"name": "💬 Zalo",
-			"url": "https://zalo.me/0854815813",
-			"icon": "/icons/Zalo.svg"
-		},
-		{
-			"name": "☎️ Hotline: 0854 815 813",
-			"url": "tel:0854815813",
-			"icon": "/icons/Phone.svg"
-		}
-	]
+"links": [
+	{
+		"name": "Zalo",
+		"url": "https://zalo.me/0854815813",
+		"icon": "/icons/Zalo.svg"
+	},
+	{
+		"name": "Shopee",
+		"url": "https://vn.shp.ee/kK63H1Uz",
+		"icon": "/icons/Shopee.svg"
+	},
+	{
+		"name": "Facebook",
+		"url": "https://www.facebook.com/gao.giangsen",
+		"icon": "/icons/Facebook.svg"
+	}
+]
 }

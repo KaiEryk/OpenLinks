@@ -5,11 +5,10 @@
 	"theme": "arctic",
 	"footer": "Cảm ơn quý khách đã ghé thăm ❤️",
 
-	"profile":
-	{
+	"profile": {
 		"name": "Bách Hoá GIANG SEN",
 		"avatar": "avatar/logo.png",
-		"description": "Chuyên các mặt hàng bách hoá - Giá tốt mỗi ngày",
+		"description": "Đại lý chuyên về gạo và bia - Giá tốt mỗi ngày",
 		"adult": false
 	},
 
@@ -28,6 +27,11 @@
 			"name": "💬 Zalo",
 			"url": "https://zalo.me/0854815813",
 			"icon": "/icons/Zalo.svg"
+		},
+		{
+			"name": "☎️ Hotline: 0854 815 813",
+			"url": "tel:0854815813",
+			"icon": "/icons/Phone.svg"
 		}
 	]
 }

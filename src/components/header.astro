@@ -23,7 +23,12 @@ const { profile, avatarClass } = Astro.props;
 			0 3px 8px rgba(0,0,0,.12);
 	"
 >
-	{profile.name}
+{profile.name.split("\n").map((line) => (
+	<>
+		{line}
+		<br />
+	</>
+))}
 </h1>
 
 		<p class="mx-auto max-w-sm text-lg font-normal font-sans text-gray-700">

@@ -1,50 +1,46 @@
-<div class="text-center mb-8 animate-fade-in">
-	<div class="relative inline-block mb-4">
-		<img
-			src={profile.avatar || "avatar/Avatar.webp"}
-			alt={`${profile.name} avatar`}
-			width="120"
-			height="120"
-			class={avatarClass}
-		/>
+---
+const { profile, avatarClass } = Astro.props;
+---
 
-		<h1 class="mt-6 leading-none text-center">
-			<span class="block text-4xl font-bold text-green-800 tracking-wide">
-				Bách Hoá
-			</span>
+<div class="text-center mb-10 animate-fade-in">
 
-			<span
-				class="block text-6xl font-black tracking-wide mt-1"
-				style="
-					background:linear-gradient(180deg,#2E7D32,#1B5E20);
-					-webkit-background-clip:text;
-					-webkit-text-fill-color:transparent;
-					text-shadow:0 3px 8px rgba(0,0,0,.15);
-				"
-			>
-				GIANG SEN
-			</span>
-		</h1>
+	<img
+		src={profile.avatar || "avatar/Avatar.webp"}
+		alt={`${profile.name} avatar`}
+		width="110"
+		height="110"
+		class={`${avatarClass} shadow-xl`}
+	/>
 
-		<!-- THÊM ĐOẠN NÀY -->
-		<div class="flex items-center justify-center my-3">
-			<div class="h-px w-20 bg-green-300"></div>
+	<h1 class="mt-6 leading-none text-center">
+		<span class="block text-4xl font-bold text-green-800 tracking-wide">
+			Bách Hoá
+		</span>
 
-			<span class="mx-3 text-green-600 text-2xl">
-				🪷
-			</span>
+		<span
+			class="block text-6xl font-black tracking-wide mt-1"
+			style="background:linear-gradient(180deg,#2E7D32,#1B5E20);-webkit-background-clip:text;-webkit-text-fill-color:transparent;filter:drop-shadow(0 3px 6px rgba(0,0,0,.2));"
+		>
+			GIANG SEN
+		</span>
+	</h1>
 
-			<div class="h-px w-20 bg-green-300"></div>
-		</div>
+	<div class="flex items-center justify-center my-4">
+		<div class="h-px w-20 bg-green-300"></div>
 
-		<!-- Mô tả -->
-		<p class="text-lg text-gray-700 max-w-xs mx-auto">
-			{profile.description}
-		</p>
+		<span class="mx-3 text-green-600 text-2xl">
+			🪷
+		</span>
 
-		<!-- Hotline -->
-		<p class="mt-4 text-2xl font-bold text-red-700">
-			☎️ 0854 815 813
-		</p>
+		<div class="h-px w-20 bg-green-300"></div>
 	</div>
+
+	<p class="text-xl font-medium text-gray-800">
+		{profile.description}
+	</p>
+
+	<p class="mt-5 text-2xl font-extrabold text-red-700">
+		☎️ 0854 815 813
+	</p>
+
 </div>

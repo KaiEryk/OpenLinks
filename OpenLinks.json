@@ -1,42 +1,33 @@
 {
-	"title": "OpenLinks",
-	"description": "Free JSON-Driven template for Astro.",
-	"url_base": "https://yoursite.com",
+	"title": "Bách Hoá GIANG SEN",
+	"description": "Bách hoá tổng hợp",
+	"url_base": "https://YOUR-PAGES.pages.dev",
 	"theme": "brutalism",
-	"footer": "Made with ❤️ by <a href='https://e10y.dev'>E10Y</a>",
+	"footer": "Cảm ơn quý khách đã ghé thăm ❤️",
+
 	"profile":
-		{
-			"name": "OpenLinks",
-			"avatar": "avatar/Avatar.webp",
-			"description":"OpenSource JSON-driven",
-			"adult": false
-		}
-	,
+	{
+		"name": "Bách Hoá GIANG SEN",
+		"avatar": "avatar/logo.png",
+		"description": "Chuyên các mặt hàng bách hoá - Giá tốt mỗi ngày",
+		"adult": false
+	},
+
 	"links": [
 		{
-			"name": "GitHub",
-			"url": "https://github.com/E10YDEV/OpenLinks",
-			"icon": "/icons/GitHub.svg"
+			"name": "🛒 Shopee",
+			"url": "https://vn.shp.ee/kK63H1Uz",
+			"icon": "/icons/Shopee.svg"
 		},
 		{
-			"name": "Website",
-			"url": "https://e10y.dev",
-			"icon": "/icons/Web.svg"
+			"name": "📘 Facebook",
+			"url": "https://www.facebook.com/gao.giangsen",
+			"icon": "/icons/Facebook.svg"
 		},
 		{
-			"name": "Instagram",
-			"url": "#",
-			"icon": "/icons/Instagram.svg"
-		},
-		{
-			"name": "Twitter",
-			"url": "#",
-			"icon": "/icons/X.svg"
-		},
-		{
-			"name": "Mail",
-			"url": "#",
-			"icon": "/icons/Mail.svg"
+			"name": "💬 Zalo",
+			"url": "https://zalo.me/0854815813",
+			"icon": "/icons/Zalo.svg"
 		}
 	]
 }

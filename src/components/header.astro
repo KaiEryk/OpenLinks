@@ -2,25 +2,25 @@
 const { profile, avatarClass } = Astro.props;
 ---
 
-<div class="text-center mb-8 animate-fade-in">
-	<div class="relative inline-block mb-4">
+<div class="text-center mb-10">
+	<div class="inline-block">
 		<img
 			src={profile.avatar || "avatar/Avatar.webp"}
 			alt={`${profile.name} avatar`}
-			width="40"
-			height="40"
+			width="120"
+			height="120"
 			class={avatarClass}
 		/>
 
-		<h1 class="text-2xl font-bold mt-6 mb-1">
+		<h1 class="mt-6 mb-2 text-4xl font-extrabold font-sans">
 			{profile.name}
 		</h1>
 
-		<p class="text-sm max-w-xs mx-auto">
+		<p class="mx-auto max-w-sm text-lg font-normal font-sans text-gray-700">
 			{profile.description}
 		</p>
 
-		<p class="mt-3 text-base font-semibold">
+		<p class="mt-4 text-xl font-bold font-sans text-blue-700">
 			☎️ 0854 815 813
 		</p>
 	</div>

@@ -29,12 +29,18 @@ export const themes = {
     links_button: 'bg-white/10 press-start border pixel-corners p-4 cursor-pointer hover:bg-white/20 transition-all duration-200 glass group',
     links_text: 'text-white font-medium group-hover:text-zinc-300 transition-colors',
   },
-  arctic: {
+ arctic: {
     background: "bg-cover bg-center bg-fixed",
-    avatar: 'w-24 h-24 mx-auto rounded-full border-4 border-slate-300/50 bg-gradient-to-br from-blue-300 to-cyan-400 flex items-center justify-center',
-    links_button: 'bg-white/60 border border-slate-200/50 rounded-lg p-4 cursor-pointer hover:bg-blue-50/80 transition-all duration-200 glass group',
-    links_text: 'text-slate-700 font-medium group-hover:text-blue-600 transition-colors',
-  },
+
+    avatar:
+      "w-24 h-24 mx-auto rounded-full border-4 border-white shadow-xl bg-gradient-to-br from-blue-200 to-cyan-300 flex items-center justify-center",
+
+    links_button:
+      "bg-[#FFF8EC]/95 border border-amber-200 rounded-2xl p-5 shadow-lg cursor-pointer hover:bg-[#FFFDF6] hover:shadow-xl transition-all duration-300 group",
+
+    links_text:
+      "text-gray-900 text-xl font-bold group-hover:text-green-700 transition-colors",
+},
   cherry: {
     background: 'text-white bg-gradient-to-br from-pink-800 via-rose-700 to-red-800',
     avatar: 'w-24 h-24 mx-auto rounded-full border-4 border-white/20 bg-gradient-to-br from-pink-400 to-rose-500 flex items-center justify-center',

@@ -12,18 +12,37 @@ const { profile, avatarClass } = Astro.props;
 		class={`${avatarClass} shadow-xl`}
 	/>
 
-	<h1 class="mt-6 leading-none text-center">
-		<span class="block text-4xl font-bold text-green-800 tracking-wide">
-			Bách Hoá
-		</span>
+	<h1 class="mt-5 leading-none text-center">
 
-		<span
-			class="block text-6xl font-black tracking-wide mt-1"
-			style="background:linear-gradient(180deg,#2E7D32,#1B5E20);-webkit-background-clip:text;-webkit-text-fill-color:transparent;filter:drop-shadow(0 3px 6px rgba(0,0,0,.2));"
-		>
-			GIANG SEN
-		</span>
-	</h1>
+	<span
+		class="block
+		text-2xl sm:text-3xl md:text-4xl
+		font-bold
+		text-green-800"
+	>
+		Bách Hoá
+	</span>
+
+	<span
+		class="
+		block
+		mt-1
+		text-5xl sm:text-6xl md:text-7xl
+		font-black
+		tracking-tight
+		leading-none
+		"
+		style="
+			background:linear-gradient(180deg,#2E7D32,#1B5E20);
+			-webkit-background-clip:text;
+			-webkit-text-fill-color:transparent;
+			filter:drop-shadow(0 3px 5px rgba(0,0,0,.15));
+		"
+	>
+		GIANG SEN
+	</span>
+
+</h1>
 
 	<div class="flex items-center justify-center my-4">
 		<div class="h-px w-20 bg-green-300"></div>

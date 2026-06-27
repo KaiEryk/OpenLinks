@@ -6,31 +6,11 @@ const { themeClass, meta } = Astro.props;
 <!doctype html>
 <html lang="vi">
 
-<script type="application/ld+json" set:html={JSON.stringify({
-  "@context": "https://schema.org",
-  "@type": "Store",
-  "name": "Bách Hoá GIANG SEN",
-  "image": "https://bachhoagiangsen.pages.dev/avatar/Avatar.webp",
-  "url": "https://bachhoagiangsen.pages.dev",
-  "telephone": "+84854815813",
-  "description": "Chuyên sỉ & lẻ gạo, bia giá tốt",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Địa chỉ cửa hàng",
-    "addressLocality": "Bình Dương",
-    "addressCountry": "VN"
-  },
-  "sameAs":[
-    "https://facebook.com/...",
-    "https://zalo.me/..."
-  ]
-})}/>
-
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<!-- Font -->
+	<!-- Google Font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link
@@ -41,20 +21,35 @@ const { themeClass, meta } = Astro.props;
 	<title>{meta.title}</title>
 
 	<meta name="description" content={meta.description} />
+	<meta
+		name="keywords"
+		content="Bách Hoá GIANG SEN, Giang Sen, Gạo, Bia, Đại lý gạo, Đại lý bia, Gạo Bình Dương, Bia Bình Dương"
+	/>
+	<meta name="theme-color" content="#2E7D32" />
 	<meta name="generator" content={Astro.generator} />
+
+	<link rel="canonical" href={meta.url_base} />
 
 	<link rel="icon" href="/favicon/favicon.svg" />
 
+	<!-- Open Graph -->
 	<meta property="og:title" content={meta.title} />
 	<meta property="og:description" content={meta.description} />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content={meta.url_base} />
+	<meta
+		property="og:image"
+		content="https://bachhoagiangsen.pages.dev/avatar/logo.png"
+	/>
 
+	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content={meta.title} />
 	<meta name="twitter:description" content={meta.description} />
-
-	<link rel="canonical" href={meta.url_base} />
+	<meta
+		name="twitter:image"
+		content="https://bachhoagiangsen.pages.dev/avatar/logo.png"
+	/>
 
 	<!-- Cloudflare Web Analytics -->
 	<script
@@ -63,6 +58,30 @@ const { themeClass, meta } = Astro.props;
 		data-cf-beacon='{"token":"b0a0b5d3152a415299097653f4ef5889"}'>
 	</script>
 
+	<!-- Schema.org -->
+	<script
+		type="application/ld+json"
+		set:html={JSON.stringify({
+			"@context": "https://schema.org",
+			"@type": "GroceryStore",
+			"name": "Bách Hoá GIANG SEN",
+			"image": "https://bachhoagiangsen.pages.dev/avatar/logo.png",
+			"url": "https://bachhoagiangsen.pages.dev",
+			"telephone": "+84854815813",
+			"description": "Chuyên sỉ & lẻ gạo, bia giá tốt",
+"openingHours": "Mo-Su 06:00-21:00",
+			"address": {
+				"@type": "PostalAddress",
+  "streetAddress": "320 Phạm Văn Bạch, Phường Tân Sơn",
+  "addressLocality": "TP. Hồ Chí Minh",
+  "addressCountry": "VN"
+			},
+			"sameAs": [
+				"https://zalo.me/0854815813",
+				"https://www.facebook.com/gao.giangsen"
+			]
+		})}
+	/>
 </head>
 
 <body

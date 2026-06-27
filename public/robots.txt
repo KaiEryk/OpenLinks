@@ -1,5 +1,9 @@
-User-agent: *
-
-Allow: /
-
-Sitemap: https://bachhoagiangsen.pages.dev/sitemap.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://bachhoagiangsen.pages.dev/</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

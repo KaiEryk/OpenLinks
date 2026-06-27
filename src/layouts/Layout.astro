@@ -6,6 +6,26 @@ const { themeClass, meta } = Astro.props;
 <!doctype html>
 <html lang="vi">
 
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "name": "Bách Hoá GIANG SEN",
+  "image": "https://bachhoagiangsen.pages.dev/avatar/Avatar.webp",
+  "url": "https://bachhoagiangsen.pages.dev",
+  "telephone": "+84854815813",
+  "description": "Chuyên sỉ & lẻ gạo, bia giá tốt",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Địa chỉ cửa hàng",
+    "addressLocality": "Bình Dương",
+    "addressCountry": "VN"
+  },
+  "sameAs":[
+    "https://facebook.com/...",
+    "https://zalo.me/..."
+  ]
+})}/>
+
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />

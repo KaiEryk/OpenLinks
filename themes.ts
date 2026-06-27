@@ -34,8 +34,8 @@ export const themes = {
 background: "bg-cover bg-center bg-fixed",
 
 avatar:
-"w-28 h-28 mx-auto rounded-full border-4 border-white shadow-xl bg-gradient-to-br from-blue-200 to-cyan-300 flex items-center justify-center",
-
+"w-40 h-40 mx-auto bg-transparent border-0 shadow-none flex items-center justify-center",
+   
 links_button:
 "bg-[#FFF8EC]/95 border border-amber-200 rounded-2xl p-5 shadow-lg cursor-pointer hover:bg-[#FFFDF6] hover:scale-[1.02] hover:shadow-xl transition-all duration-300 group",
 

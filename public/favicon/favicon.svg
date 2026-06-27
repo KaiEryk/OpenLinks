@@ -1,5 +1,11 @@
-<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-  <rect width="32" height="32" rx="6" fill="#0B3D2E"/>
-  <text x="16" y="12" font-family="Georgia, serif" font-size="7" font-weight="700" fill="#FDEAF0" text-anchor="middle" dominant-baseline="central">GIANG</text>
-  <text x="16" y="22" font-family="Georgia, serif" font-size="7" font-weight="400" fill="#F4A6C0" text-anchor="middle" dominant-baseline="central" letter-spacing="1">SEN</text>
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <title>Giang Sen</title>
+  <text x="12" y="12"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="18"
+    font-weight="700"
+    fill="currentColor"
+    text-anchor="middle"
+    dominant-baseline="central"
+    letter-spacing="-1">GS</text>
 </svg>
